@@ -1,0 +1,61 @@
+{
+  "schemata":[
+    "plansystemdk"
+  ],
+ 
+ "brandName": "Kitchen sink demo",
+ 
+ "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "komkode": ["851", "727", "151"]
+  },
+ 
+ "enabledExtensions": [
+        "findNearest",
+        "conflictSearch",
+        //"skraafoto",
+        "streetView",
+        "layerSearch",
+        "coordinates",
+        "vectorLayers",
+        "isochrone",
+        "ejendom",
+        "languages"
+ ],
+ 
+ "baseLayers": [
+        {
+            "id": "geodk.bright",
+            "name": "Bright, GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        
+        {
+            "id": "geodk.terminal",
+            "name": "Terminal, GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        
+        {"id": "osm", "name": "OSM"},
+
+        {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+        
+        {"id": "googleStreet", "name": "Google Street"}
+
+
+    ]
+ 
+}
