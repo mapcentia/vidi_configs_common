@@ -14,7 +14,6 @@
  "enabledExtensions": [
         "findNearest",
         "conflictSearch",
-        //"skraafoto",
         "streetView",
         "layerSearch",
         "coordinates",
