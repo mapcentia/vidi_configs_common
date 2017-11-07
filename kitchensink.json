@@ -69,7 +69,7 @@
 
         {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
         
-        {"id": "googleStreet", "name": "Google Street"}
+        {"id": "googleStreets", "name": "Google Streets"}
 
 
     ]
