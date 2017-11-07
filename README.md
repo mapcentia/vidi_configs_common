@@ -1,0 +1,1 @@
+# vidi_configs_common
