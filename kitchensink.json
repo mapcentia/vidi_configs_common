@@ -8,7 +8,7 @@
  "searchModules": ["google", "danish"],
     "enabledSearch": "danish",
     "searchConfig": {
-        "komkode": 
+        "komkode": [ 
           "253",
           "259",
           "265",
