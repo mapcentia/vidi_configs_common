@@ -8,7 +8,24 @@
  "searchModules": ["google", "danish"],
     "enabledSearch": "danish",
     "searchConfig": {
-        "komkode": ["851", "727", "151"]
+        "komkode": 
+          "253",
+          "259",
+          "265",
+          "269",
+          "306",
+          "316",
+          "320",
+          "326",
+          "329",
+          "330",
+          "336",
+          "340",
+          "350",
+          "360",
+          "370",
+          "376"
+      ]
   },
  
  "enabledExtensions": [
