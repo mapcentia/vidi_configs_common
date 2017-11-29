@@ -5,6 +5,8 @@
  
  "brandName": "Kitchen sink demo",
  
+ "template": "highlights.tmpl",
+
  
  "enabledExtensions": [
         "vectorLayers",
