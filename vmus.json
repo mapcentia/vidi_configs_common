@@ -1,0 +1,32 @@
+{
+  "schemata":[
+    "punkter"
+  ],
+ 
+ "brandName": "Kitchen sink demo",
+ 
+ 
+ "enabledExtensions": [
+        "vectorLayers",
+        "highlights"
+ ],
+ 
+ "baseLayers": [
+        {
+            "id": "geodk.bright",
+            "name": "Bright, GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        
+        {"id": "osm", "name": "OSM"}
+
+
+    ]
+ 
+}
