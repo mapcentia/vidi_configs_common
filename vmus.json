@@ -16,7 +16,18 @@
  "baseLayers": [
         {
             "id": "geodk.bright",
-            "name": "Bright, GeoDanmark kort",
+            "name": "Landkort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        {
+            "id": "luftfotoserier.orto_foraar_2016",
+            "name": "Luftfoto (år 2016)",
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
@@ -26,7 +37,7 @@
             }
         },
         
-        {"id": "osm", "name": "OSM"}
+        {"id": "osm", "name": "Open Street Map"}
 
 
     ]
