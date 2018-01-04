@@ -1,6 +1,9 @@
 {
   "schemata":[
-    "plansystemdk"
+    "plansystemdk",
+    "dai",
+    "geus",
+    "kulturarvsstyrelsen"
   ],
  
  "brandName": "Kitchen sink demo",
