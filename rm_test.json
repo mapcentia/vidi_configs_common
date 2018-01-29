@@ -1,2 +1,6 @@
 {
+  "schemata":[
+    "test",
+    "tag:undervisning"
+  ]
 }
