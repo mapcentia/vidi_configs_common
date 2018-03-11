@@ -3,6 +3,8 @@
     "punkter"
   ],
  
+  "doNotCloseLoadScreen" = true,
+  
  "brandName": "Kitchen sink demo",
  
  "template": "highlights.tmpl",
