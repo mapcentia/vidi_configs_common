@@ -16,7 +16,7 @@
  "baseLayers": [
         {
             "id": "geodk.bright",
-            "name": "Bright, GeoDanmark kort",
+            "name": "Landkort",
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
@@ -26,7 +26,28 @@
             }
         },
         
-        {"id": "osm", "name": "OSM"}
+        {
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto fra 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        {
+            "id": "kortforsyningen.topo25",
+            "name": "Klassisk 4cm kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        }
 
 
     ]
