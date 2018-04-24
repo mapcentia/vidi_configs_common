@@ -70,7 +70,8 @@
         "coordinates",
         "isochrone",
         "ejendom",
-        "languages"
+        "languages",
+        "skolevej"
  ],
  
  "baseLayers": [
