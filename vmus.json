@@ -26,8 +26,8 @@
             }
         },
         {
-            "id": "luftfotoserier.orto_foraar_2016",
-            "name": "Luftfoto (år 2016)",
+            "id": "luftfotoserier.geodanmark_2017_12_5cm",
+            "name": "Luftfoto (år 2017)",
             "db": "baselayers",
             "host": "https://gc2.io",
             "config": {
