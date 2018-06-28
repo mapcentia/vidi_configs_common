@@ -1,1 +1,83 @@
 
+
+{
+  "schemata":[
+    "hoefde42"
+  ],
+ 
+ "brandName": "Rønland gl. fabrik",
+ 
+ "searchModules": ["google", "danish"],
+    "enabledSearch": "danish",
+    "searchConfig": {
+        "komkode": [ 
+          "*"
+
+      ]
+  },
+ 
+ "enabledExtensions": [
+        "conflictSearch",
+        "streetView",
+        "coordinates",
+        "ejendom",
+        "vidiSearch"
+ ],
+ 
+ "baseLayers": [
+        {
+            "id": "geodk.bright",
+            "name": "Bright, GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        
+        {
+            "id": "geodk.terminal",
+            "name": "Terminal, GeoDanmark kort",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 19,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        {
+            "id": "luftfotoserier.orto_foraar_2017",
+            "name": "Luftfoto, forår 2017",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        {
+            "id": "luftfotoserier.orto_foraar_2016",
+            "name": "Luftfoto, forår 2016",
+            "db": "baselayers",
+            "host": "https://gc2.io",
+            "config": {
+                "maxZoom": 21,
+                "maxNativeZoom": 20,
+                "attribution": "&copy; SDFE & MapCentia ApS"
+            }
+        },
+        
+        {"id": "osm", "name": "OSM"},
+
+        {"id": "stamenTonerLite", "name": "Stamen Toner Light"},
+        
+        {"id": "googleStreets", "name": "Google Streets"}
+
+
+    ]
+ 
+}
