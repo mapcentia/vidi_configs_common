@@ -8,10 +8,8 @@
  "searchModules": ["google", "danish"],
     "enabledSearch": "danish",
     "searchConfig": {
-        "komkode": [ 
-          "*"
+        "komkode": "*"
 
-      ]
   },
  
  "enabledExtensions": [
