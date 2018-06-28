@@ -5,13 +5,6 @@
  
  "brandName": "Rønland gl. fabrik",
  
- "searchModules": ["google", "danish"],
-    "enabledSearch": "danish",
-    "searchConfig": {
-        "komkode": "*"
-
-  },
- 
  "enabledExtensions": [
         "conflictSearch",
         "streetView",
