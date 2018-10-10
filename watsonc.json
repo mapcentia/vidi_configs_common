@@ -3,6 +3,7 @@
   "enabledExtensions": [
     "embed",
     "session",
-    "watsonc"
+    "watsonc",
+    "ejendom"
   ]
 }
