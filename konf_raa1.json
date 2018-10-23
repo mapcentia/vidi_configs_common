@@ -1,0 +1,18 @@
+
+{
+
+  "schemata":[
+    "public",
+    "tag:konf_raa1"
+  ],
+  
+  "extensionConfig": {
+        "conflictSearch": {
+            "startBuffer": 2,
+            "getProperty": true,
+            "searchString": "tag:konf_raa1",
+            "searchLoadedLayers": false
+        }
+  }
+    
+}
