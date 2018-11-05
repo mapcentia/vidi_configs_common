@@ -1,1 +1,10 @@
-
+{
+  "schemata":[
+    "public"
+  ],
+  "extensionConfig": {
+    "farmpolysSearch": {
+       "search": "farmpolys_c2"
+        }
+    }
+}
