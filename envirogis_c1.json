@@ -2,7 +2,7 @@
   "schemata":[
     "public"
   ],
-  extensionConfig: {
+  "extensionConfig": {
     "farmpolysSearch": {
        "search": "farmpolys_c2"
         }
