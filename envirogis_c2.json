@@ -1,7 +1,8 @@
 {
   "schemata":[
     "public",
-    "report.lcappolys_c2"
+    "report.lcappolys_c2",
+    "report.farmpolys_c2"
   ],
   "extensionConfig": {
     "farmpolysSearch": {
