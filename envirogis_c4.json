@@ -2,7 +2,9 @@
   "schemata":[
     "public",
     "report.lcappolys_c4",
-    "report.farmpolys_c4"    
+    "report.farmpolys_c4",
+    "report.monitoring_farmpolys_c4",
+    "report.monitoring_fields_c4"
   ],
   "extensionConfig": {
     "farmpolysSearch": {
