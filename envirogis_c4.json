@@ -1,8 +1,37 @@
 {
   "schemata":[
-    "public",
-    "report.lcappolys_c4",
-    "report.farmpolys_c4",
+   
+     "limpopo",
+     "gauteng",
+     "mpumalanga",
+     "north_west",
+
+
+     "report.gt_farmpolys_c4",
+     "report.gt_lcappolys_c4",
+     
+
+     "report.lp_farmpolys_c4",
+     "report.lp_lcappolys_c4",
+
+     "report.mp_farmpolys_c4",
+     "report.mp_lcappolys_c4",
+
+
+     "report.nw_farmpolys_c4",
+     "report.nw_lcappolys_c4",
+
+         
+         "public.barley_19w",
+         "public.sorgh_19w",
+         "public.maize_19w",
+         "public.wheat_19w",
+         "public.oats_19w",
+         "public.gr_nuts_19w",
+         "public.soyb_19w",
+         "public.sunfl_19w",
+         "public.canola_19w",
+
     "report.monitoring_farmpolys_c4",
     "report.monitoring_fields_c4"
   ],
