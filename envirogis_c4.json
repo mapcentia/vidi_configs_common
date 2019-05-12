@@ -33,7 +33,9 @@
          "public.canola_19w",
 
     "report.monitoring_farmpolys_c4",
-    "report.monitoring_fields_c4"
+    "report.monitoring_fields_c4",
+    
+    "report.sa_farmpolys"
   ],
   "extensionConfig": {
     "farmpolysSearch": {
