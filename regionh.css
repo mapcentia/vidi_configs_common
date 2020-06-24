@@ -37,3 +37,7 @@
 .js-toggle-filters {
   display: inline !important;
 }
+
+.where-clause-field {
+  display: none !important;
+}
