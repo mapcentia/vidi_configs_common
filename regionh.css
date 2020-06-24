@@ -33,3 +33,7 @@
 .marker-cluster span {
   color: white !important;
 }
+
+.js-toggle-filters {
+  display: inline !important;
+}
