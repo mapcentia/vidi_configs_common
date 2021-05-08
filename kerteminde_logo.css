@@ -1,5 +1,5 @@
 #module-container-body{
-background-image: url(https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/alt_logo_100mm_farve_rgb.jpg);
+background-image: url('https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/alt_logo_100mm_farve_rgb.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 60%;
@@ -8,7 +8,7 @@ background-image: url(https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/al
 }
 
 #print-header-logo{
-        background-image: url(https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/alt_logo_100mm_farve_rgb.jpg);
+        background-image: url('https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/alt_logo_100mm_farve_rgb.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 80%;
