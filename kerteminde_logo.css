@@ -1,12 +1,3 @@
-#module-container-body{
-background-image: url('https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/alt_logo_100mm_farve_rgb.jpg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 60%;
-    width: 100%;
-    height: 100%;
-}
-
 #print-header-logo{
         background-image: url('https://mapcentia-www.s3-eu-west-1.amazonaws.com/images/alt_logo_100mm_farve_rgb.jpg');
     background-repeat: no-repeat;
