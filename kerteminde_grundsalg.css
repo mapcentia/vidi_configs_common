@@ -1,3 +1,6 @@
 #floating-container-secondary, #legend-dialog, #place-search {
   display: none;
 }
+.nav.nav-tabs {
+     display: block;
+ }
