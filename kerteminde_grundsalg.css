@@ -2,5 +2,5 @@
   display: none;
 }
 .nav.nav-tabs {
-     display: block;
+     display: block !important;
  }
