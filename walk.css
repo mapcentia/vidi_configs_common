@@ -3,7 +3,7 @@
 }
 
 /* Ny Vidi */
-#edit-tool-group, .btn-outline-secondary {
+#edit-tool-group, .btn-outline-secondary, .offcanvas-header {
   display:none !important;
 }
 .leaflet-top {
