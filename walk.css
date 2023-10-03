@@ -9,3 +9,6 @@
 .leaflet-top {
   top: 0 !important
 }
+.offcanvas-body img {'
+  width: 100%
+}
