@@ -1,0 +1,19 @@
+{
+    "schemata": [
+        "public"
+    ],
+    "brandName": "MapCentia ApS",
+    "aboutBox": "<p>My awesome web map</p>",
+    "enabledExtensions": [
+        "conflictSearch",
+        "streetView",
+        "coordinates",
+        "session",
+        "editor",
+        "offlineMap"
+    ],
+    "template": "default.tmpl",
+    "baseLayers": {
+        "$ref": "http://127.0.0.1:8080/api/v2/configuration/mydb/configuration_defs_65a15aa97c2df746526680.json"
+    }
+}
