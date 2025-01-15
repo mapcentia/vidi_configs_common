@@ -3,5 +3,8 @@
   "schemata":[
     "tag:Odder",
     "tag:Børn"
-  ]
+  ],
+      "baseLayers": {
+        "$ref": "https://raw.githubusercontent.com/Geosmeden/beredskabskort/refs/heads/master/geocloud_configs/baggrundskort.json#/fuld_opsaetning"
+    }
 }
