@@ -1,0 +1,436 @@
+/* login knap farve */
+.btn.btn-primary.sign-in-btn {
+  color: #FFD800;
+  background-color: #5E5D2B;
+}
+
+/* Menu knap farve */
+#offcanvasLayerControlBtn {
+  color: #FFD800;
+  background-color: #5E5D2B;
+}
+
+/* lav print knap farve */
+.btn.btn-primary.start-print-btn, .btn.btn-primary.get-print-btn, .btn btn-primary.dropdown-toggle.get-print-btn {
+  color: #FFD800;
+  background-color: #5E5D2B;
+}
+
+/* gem projekt knap farve */
+button.btn.btn-primary.btn-sm {
+    background-color: #5E5D2B;
+    color: #FFD800;
+}
+
+/* primære værktøjs knapper aktiv farve */
+.btn-outline-primary {
+    --bs-btn-active-color: #FFDF51;
+    --bs-btn-active-bg: #375614;
+    --bs-btn-active-border-color: #143280;
+    --bs-btn-color: #FFDF51;
+    --bs-btn-bg: #5E5D2B;
+    --bs-btn-border-color: #5E5D2B;
+ } 
+
+/* sekundære værktøjs knapper aktiv farve */
+.btn-outline-secondary {
+  --bs-btn-active-color: #FFDF51;
+  --bs-btn-active-bg: #375614;
+  --bs-btn-active-border-color: #143280;
+  --bs-btn-color: #FFDF51;
+  --bs-btn-bg: #5E5D2B;
+  --bs-btn-border-color: #5E5D2B;
+ } 
+
+/* lagvælger valgt farve */
+.form-check-input:checked {
+    background-color: #5E5D2B;
+    border-color: #5E5D2B;
+}
+
+.js-opacity-slider form-range {
+  color: #5E5D2B;
+}
+
+/* Måske  ikke i brug */
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg);
+    border-color: var(--bs-btn-active-border-color);
+}
+
+.btn:hover {
+   color:  #FFDF51 !important;
+   background-color: #143280 !important;
+   border-color: #143280 !important;
+ } 
+
+.btn-check {
+  color: #FFDF51;
+  background-color: #143280;
+  border-color: #143280;
+}
+
+.btn-check + .btn:hover {
+  color: #D52243;
+  background-color:#D52243;
+  border-color: #D52243;
+}
+
+/*.btn {*/
+/*  color: #FFD800;*/
+/*  background-color: #5E5D2B;*/
+/*  border-color: #5E5D2B;*/
+/*}*/
+
+/* style til valgt kanp med signturforklainr på kort
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+  color: #FFD800;
+  background-color: #375614;
+  border-color: #375614;
+  opacity: 1.0;
+}*/
+
+/* skjul disabled knap f.eks. vis signatur på kort, og vis lag aktioner*/
+.btn:disabled {
+  display: none
+}
+
+/*Værktøjsknapper*/
+.nav-pills {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: #FFD800;
+  --bs-nav-pills-link-active-bg: #5E5D2B;
+}
+
+/* Størrelse af værktøjsknapper */
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+    font-weight: 400!important;
+    font-size: 19px;
+}
+
+/* Tabel baggrundsfarve og tekststørrelse */
+.bootstrap-table .fixed-table-container .table td, .bootstrap-table .fixed-table-container .table th {
+    background-color:  #bbb;
+    font-size: 1.2em;
+}
+  
+/* info boks attibut værdi tekst */
+.leaflet-popup-content-wrapper p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* info boks attribut overskrift tekst */
+.leaflet-popup-content-wrapper h4 {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* info boks attribut boks lagnavn */
+.popup-title {
+    font-size: 16px;
+}
+  
+.custom-popup .leaflet-popup-content-wrapper {
+    background: #fff!important;
+    font-size: 10px!important;
+    line-height: 20px!important;
+    border-radius: 8px!important;
+}
+  
+.leaflet-popup-close-button {
+    top: 0px!important;
+    right: 0px!important;
+    color: #ac1b1b!important;
+    background: #fde1e1!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px!important;
+}
+  
+/* skjul kontroller i embed kortet */
+.mapcontrols-history-backward {
+    display: none;
+}
+
+.mapcontrols-history-forward {
+   display: none;
+}
+
+/* logo i printhoved */
+#print-header-logo {
+    background-image: url('https://raw.githubusercontent.com/Geosmeden/rmg/main/logo/nvjbv_logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70%;
+}
+
+#layer-tools-offline {
+    display: none;
+}
+
+
+
+
+
+
+/* Gl styling kun for embed */
+
+.panel-body {
+    padding: 15px;
+}
+
+/* Leaflet styling */
+/* vis markering for af hensyn til refil */
+.leaflet-interactive {
+    fill-opacity: 0.05;
+stroke-opacity: 1;
+}
+
+.leaflet-tooltip{
+        font-size: 11px;
+    }
+
+/* logo i printhoved */
+#print-header-logo {
+    background-image: url('https://raw.githubusercontent.com/Geosmeden/css/refs/heads/main/reep_logo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70%;
+}
+
+#layer-tools-offline {
+    display: none;
+}
+
+
+/* baggrundsfarve alarmtabel */
+.fixed-table-body {
+    background-color: #bbb;
+}
+
+/* Padding legend */
+
+#legend-dialog.dialog-bottom.fade-then-dragging {
+    padding: 8px 1px;
+}
+
+.dialog-bottom {
+    padding: 9px 10px;
+    border-radius: 10px;
+}
+
+/* skjul kontroller i embed kortet */
+.mapcontrols-history-backward {
+    display: none;
+}
+
+.mapcontrols-history-forward {
+   display: none;
+}
+
+#zoom-default-btn {
+    display: none;
+}
+
+
+
+.btn.btn-fab, .input-group-btn .btn.btn-fab {
+    border-radius: 30%;
+}
+
+
+/* Tekst størrelser og farve og padding i info*/
+.h1, .h2, .h3, .h4, .body, h1, h2, h3, h4, .h5, .h6 {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #14324C;
+}
+
+.modal-header h3 {
+    font-size: 16px;
+}
+
+.body {
+    font-size: 11px;
+    line-height: 1.02857143;
+    color: #000000;
+}
+
+.list-group-item {
+    padding: 1px 1px;
+    border: none;
+}
+
+.checkbox label, .radio label, label {
+    font-size: 13px;
+    line-height: 1.02857143;
+    color: #14324C;
+    font-weight: 500;
+}
+
+.legend-text {
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+/* Link style*/
+.custom-popup .leaflet-popup-content-wrapper a {
+    color: rgba(1,37,68,.99)!important;
+	text-decoration: underline;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.checkbox .checkbox-material .check, label.checkbox-inline .checkbox-material .check {
+
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgba(20,50,76,.56);
+}
+
+.checkbox .checkbox-material .check:before, label.checkbox-inline .checkbox-material .check:before {
+
+    margin-top: -6px;
+    margin-left: 4px;
+ 
+}
+
+.checkbox input[type=checkbox]:checked+.checkbox-material .check:before, label.checkbox-inline input[type=checkbox]:checked+.checkbox-material .check:before {
+    color: #14324C
+}
+
+.checkbox input[type=checkbox]:checked+.checkbox-material .check, label.checkbox-inline input[type=checkbox]:checked+.checkbox-material .check {
+    color: #14324C;
+    border-color: #14324C;
+}
+
+/* QGIS server legend image*/
+img {
+    max-width: 75%;
+}
+
+
+
+/* Farve styling*/
+
+.panel-default>.panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #14324C;
+}
+
+#side-panel ul li.active .material-icons {
+    background-color: #14324C;
+    color: #FFD800;
+}
+
+.nav-tabs {
+    background: #14324C;
+}
+
+.navbar, .navbar.navbar-default {
+    background-color: #14324C;
+    color: #FFD800;
+}
+
+a, a:focus, a:hover {
+    color: #14324C;
+}
+
+.btn-group-raised .btn, .btn-group-raised .btn.btn-default, .btn-group-raised .input-group-btn .btn, .btn-group-raised .input-group-btn .btn.btn-default, .btn.btn-fab, .btn.btn-fab.btn-default, .btn.btn-raised, .btn.btn-raised.btn-default, .input-group-btn .btn.btn-fab, .input-group-btn .btn.btn-fab.btn-default, .input-group-btn .btn.btn-raised, .input-group-btn .btn.btn-raised.btn-default {
+    background-color: #fff;
+    color: #14324C;
+}
+
+.slider .noUi-handle, .slider.slider-default .noUi-handle {
+    background-color: #14324C;
+    border-color: #14324C;
+}
+
+/* lukke kryds i standard vidi for ekstrafunktioner*/
+.close {
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .9;
+}
+
+
+/* Padding for transparens slider*/
+element.style {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* Info boks */
+.popup-title {
+    font-size: 15px;
+    color: #14324C;
+	border-color: #ccc;
+	border-width: thin;
+	border-style: none none solid none;
+}
+
+.leaflet-popup-content-wrapper p {
+    margin-top: 0!important;
+    margin-bottom: 5px!important;
+}
+
+.leaflet-popup-content-wrapper h4 {
+    margin-top: 0!important;
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.leaflet-popup-content {
+    margin: 13px 19px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+    border-radius: 10px!important;
+}
+
+/* Ret attribut boks */
+
+.form-group label.control-label {
+    font-size: 12px;
+    line-height: 1.07142857;
+    font-weight: 400;
+    margin: 1px 0 0;
+}
+
+.form-group .form-control {
+    margin-bottom: 1px;
+}
+
+body {
+    font-size: 12px;
+    line-height: 1.02857143;
+    color: #333;
+}
+
+
+element.style {
+    padding: 5px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 5px;
+}
+
+.form-control {
+    height: 22px;
+    padding: 1px 0;
+    margin-bottom: 7px;
+}
