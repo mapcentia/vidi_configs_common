@@ -7,3 +7,6 @@
 .leaflet-top {
   top: 0 !important;
 }
+.leaflet-control-locate {
+  display: none !important;
+}
