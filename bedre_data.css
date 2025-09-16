@@ -1,3 +1,6 @@
 #vidi_symbols {
   font-size: 9px !important;
 }
+.nav nav-pills {
+  margin-bottom: 0 !important;
+}
