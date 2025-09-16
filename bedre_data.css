@@ -1,6 +1,9 @@
 #vidi_symbols {
-  font-size: 9px !important;
+  font-size: 10px !important;
 }
 .nav nav-pills {
   margin-bottom: 0 !important;
+}
+.leaflet-top .leaflet-right {
+  top: 0 !important;
 }
