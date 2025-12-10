@@ -3,3 +3,7 @@
     font-size: .8rem;
     color: #717171;
 }
+
+#offcanvas-fkgupload-start .nav  {
+    display:none !important
+}
