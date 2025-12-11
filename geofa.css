@@ -7,3 +7,6 @@
 #offcanvas-fkgupload-start .nav  {
     display:none !important
 }
+.row:has(#root_statuskode) {
+    display: none
+}
