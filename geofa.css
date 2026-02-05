@@ -7,6 +7,6 @@
 #offcanvas-fkgupload-start .nav  {
     display:none !important
 }
-.row:has(#root_statuskode), .row:has(#root_oprindkode), .row:has(#root_beliggenhedskommune), .row:has(#root_cvr_kode) {
+.row:has(#root_statuskode), .row:has(#root_oprindkode), .row:has(#root_beliggenhedskommune), .row:has(#root_cvr_kode), .row:has(#root_off_kode) {
     display: none
 }
