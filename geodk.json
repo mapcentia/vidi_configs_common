@@ -1,0 +1,71 @@
+{
+  "version": 8,
+  "name": "geodk",
+  "glyphs": "https://cdn.dataforsyningen.dk/assets/vector_tiles_assets/latest/glyphs/{fontstack}/{range}.pbf",
+  "sources": {
+    "geodk": {
+      "type": "vector",
+      "tiles": [
+        "https://test.admin.gc2.io/mapcache/workshop/gmaps/geodk.mvt@g20/{z}/{x}/{y}.mvt"
+      ],
+      "minzoom": 0,
+      "maxzoom": 20
+    }
+  },
+  "layers": [
+    {
+      "id": "baggrund",
+      "type": "fill",
+      "source": "geodk",
+      "source-layer": "geodk.baggrund",
+      "paint": {
+        "fill-color": "#f4f1ea"
+      }
+    },
+    {
+      "id": "bykerne",
+      "type": "fill",
+      "source": "geodk",
+      "source-layer": "geodk.bykerne",
+      "paint": {
+        "fill-color": "#e8dccb",
+        "fill-opacity": 0.6
+      }
+    },
+    {
+      "id": "sti",
+      "type": "line",
+      "source": "geodk",
+      "source-layer": "geodk.vejmidte",
+      "minzoom": 14,
+      "filter": ["==", ["get", "trafikart_"], "Sti"],
+      "paint": {
+        "line-color": "#9a8f7d",
+        "line-width": 1,
+        "line-dasharray": [2, 2]
+      }
+    },
+    {
+      "id": "vej",
+      "type": "line",
+      "source": "geodk",
+      "source-layer": "geodk.vejmidte",
+      "filter": ["!=", ["get", "trafikart_"], "Sti"],
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": ["interpolate", ["linear"], ["zoom"], 12, 1, 16, 4, 19, 10]
+      }
+    },
+    {
+      "id": "bygning",
+      "type": "fill",
+      "source": "geodk",
+      "source-layer": "geodk.bygning",
+      "minzoom": 14,
+      "paint": {
+        "fill-color": "#d9d0c1",
+        "fill-outline-color": "#b5a993"
+      }
+    }
+  ]
+}
